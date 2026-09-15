@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/XilinxCode/BoothWallace/BoothAlgorhitm_isim_beh.exe -prj /home/ise/XilinxCode/BoothWallace/BoothAlgorhitm_beh.prj work.BoothAlgorhitm 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/XilinxCode/BoothWallace/FullAdder16bits.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxCode/BoothWallace/CarrySave.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.vhd" Line 57: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.vhd" Line 58: Actual for formal port a is neither a static name nor a globally static expression
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96816 KB
+Fuse CPU Usage: 1880 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity FullAdder16bits [fulladder16bits_default]
+Compiling architecture behavioral of entity CarrySave [carrysave_default]
+Compiling architecture behavioral of entity boothalgorhitm
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/ise/XilinxCode/BoothWallace/BoothAlgorhitm_isim_beh.exe
+Fuse Memory Usage: 112108 KB
+Fuse CPU Usage: 2110 ms
+GCC CPU Usage: 630 ms

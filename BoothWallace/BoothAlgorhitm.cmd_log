@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm Co28bits -w -dir netgen/translate -ofmt vhdl -sim BoothAlgorhitm.ngd Co28bits_translate.vhd 
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BoothAlgorhitm.twx BoothAlgorhitm.ncd -o BoothAlgorhitm.twr BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BoothAlgorhitm.twx BoothAlgorhitm.ncd -o BoothAlgorhitm.twr BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BoothAlgorhitm.twx BoothAlgorhitm.ncd -o BoothAlgorhitm.twr BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BoothAlgorhitm.twx BoothAlgorhitm.ncd -o BoothAlgorhitm.twr BoothAlgorhitm.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.xst" -ofn "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 BoothAlgorhitm.ngc BoothAlgorhitm.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BoothAlgorhitm_map.ncd BoothAlgorhitm.ngd BoothAlgorhitm.pcf 
+par -w -intstyle ise -ol high -mt off BoothAlgorhitm_map.ncd BoothAlgorhitm.ncd BoothAlgorhitm.pcf 

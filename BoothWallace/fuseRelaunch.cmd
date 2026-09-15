@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm_isim_beh.exe" -prj "/home/ise/XilinxCode/BoothWallace/BoothAlgorhitm_beh.prj" "work.BoothAlgorhitm" 
